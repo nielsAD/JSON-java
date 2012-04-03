@@ -31,7 +31,7 @@ import java.lang.reflect.Modifier;
 import java.lang.reflect.Method;
 import java.util.Collection;
 import java.util.Enumeration;
-import java.util.LinkedHashMap;
+import java.util.TreeMap;
 import java.util.Iterator;
 import java.util.Locale;
 import java.util.Map;
@@ -144,7 +144,7 @@ public class JSONObject {
      * Construct an empty JSONObject.
      */
     public JSONObject() {
-        this.map = new LinkedHashMap();
+        this.map = new TreeMap();
     }
 
 
